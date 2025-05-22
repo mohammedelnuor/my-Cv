@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My CV</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="slit-0">
+      <nav class="bg-blue-600 shadow-lg">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <!-- زر القائمة للهاتف -->
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button id="menu-toggle" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-white hover:text-blue-600 focus:ring-2 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <span class="sr-only">Open main menu</span>
+              </button>
+            </div>
+  
+            <!-- الشعار -->
+            <div class="hidden md:block text-start">
+              <h1 class="text-white font-bold text-xl">Mo.Alnuor</h1>
+            </div>
+  
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
+              <div class="flex md:hidden text-start">
+                <h1 class="text-white font-bold text-xl">Mohammed Alnuor</h1>
+              </div>
+              <div class="links hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <a href="#" class="rounded-md bg-white px-3 py-2 text-sm font-medium text-blue-500" data-section=".slit-1">Home</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white hover:text-blue-600 " data-section=".slite-3">About Me</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white hover:text-blue-600" data-section=".slite-4">My skills</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white hover:text-blue-600" data-section=".slite-6">Education</a> 
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white hover:text-blue-600" data-section=".slite-7">Projects</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white hover:text-blue-600" data-section=".slite-8">Contact</a>
+                  
+                </div>
+              </div>
+            </div>
+  
+           
+          </div>
+        </div>
+  
+        <!-- قائمة الهاتف -->
+        <div class="sm:hidden hidden rounded-lg" id="mobile-menu">
+          <nav class="space-y-1 px-2 pt-2 pb-3">
+            <a href="#home" class="block rounded-md bg-white px-3 py-2 text-base font-medium text-blue-600">Home</a>
+            <a href="#about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white hover:text-blue-600">About </a>
+            <a href="#skills" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white hover:text-blue-600">My skills</a>
+            <a href="#education" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white hover:text-blue-600">Education</a>
+              <a href="#projects" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white hover:text-blue-600">Projects</a>
+            <a href="#contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white hover:text-blue-600">Contact </a> 
+          </nav>
+        </div>
+      </nav>
+  
+    </div>
+    <!-- end slite-0 -->
+
+
+    <!-- start slite-1 -->
+    <div class="slit-1 mt-8 md:mt-10 bg-white " id="home">
+      <div class="container m-auto">
+        <div class="flex md:justify-center flex-col-reverse md:flex-row">
+
+          <div class="md:w-1/3 w-full p-3 md:mt-16">
+            <h1 class="text-blue-500 text-2xl font-bold">Hello, I am Mohammed Alnuor Mokhtar</h1>
+            <p class="text-sm p-2 mt-2"><span class="text-blue-600 font-bold">and I am a software engineer</span>  
+              I strive to transform ideas into innovative and effective technical solutions, focusing on delivering unique experiences that reflect my attention to detail and meet user needs
+              </p>
+          </div>
+          <div class="w-full md:w-1/3 p-3">
+            <img src="/imegs/undraw_programming_re_kg9v.svg" alt="">
+          </div>
+
+        </div> 
+      </div>
+    </div>
+    <!-- end slite-1 -->
+
+
+    <!-- srart slite-2 -->
+     <div class="slite-2 mt-9 md:mt-32">
+      <div class="container mx-auto px-4 ">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Values Column -->
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-blue-600">Values</h2>
+                <ul class="list-disc ml-5 text-gray-600  text-sm">
+                    <li>Component-Based Design: Building scalable, reusable components.</li>
+                    <li>Performance Optimization: Ensuring fast, responsive applications.</li>
+                    <li>Continuous Learning: Exploring the React ecosystem and tools.</li>
+                </ul>
+            </div>
+            <!-- Goals Column -->
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-blue-600">Goals</h2>
+                <ul class="list-disc ml-5 text-gray-600 text-sm">
+                    <li>Master SSR and SSG with Next.js.</li>
+                    <li>Deploy production-grade React apps.</li>
+                    <li>Contribute to React's open-source community.</li>
+                </ul>
+            </div>
+            <!-- Hobbies Column -->
+            <div class="p-6 bg-white rounded-lg shadow-md ">
+                <h2 class="text-xl font-bold mb-4 text-blue-600">Hobbies</h2>
+                <ul class="list-disc ml-5 text-gray-600  text-sm">
+                    <li>Experimenting with state management and UI libraries.</li>
+                    <li>Writing React tutorials or blogs.</li>
+                    <li>Attending React conferences and meetups.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+     </div>
+
+    <!-- end slite-2 -->
+
+
+    <!-- start slite-3 -->
+     <div class="slite-3 mt-36" id="about">
+       <div class="container m-auto">
+        <div class="flex justify-evenly md:flex-row flex-col  md:space-x-80 space-x-0 md:space-y-0 space-y-5  ">
+          <div class="md:w-1/3  p-3 md:shadow-xl m-2 h-80  flex justify-center items-center text-center rounded-xl  ">
+            <img class="rounded-lg w-80" src="/imegs/IMG_٢٠٢٥٠٥٠١_٢٢٠٢٠٤.jpg" alt="">
+          </div>
+
+          <div class="md:w-1/3 w-full p-3 mt-3">
+            <h1 class="text-2xl text-blue-600 font-bold mb-3">About Me</h1>
+            <p class="text-sm p-2 m-2 leading-6 ">
+              I am Mohammed, a software engineer specializing in Front-End development. My passion lies in creating innovative and user-friendly experiences while focusing on achieving a balance between attractive design and practical efficiency. I use the latest web development technologies such as HTML, CSS, and JavaScript, and rely on tools and frameworks like Bootstrap and Tailwind CSS to develop outstanding interfaces that meet client needs and enhance user experience. I always strive to transform ideas into interactive websites and applications that come to life with the highest quality
+              </p>
+          </div>
+
+        </div>
+
+       </div>
+     </div>
+
+    <!-- end slite-3 -->
+
+
+
+  <!-- start slite-4 -->
+    <div class="slite-4 mt-4 md:mt-28" id="skills">
+    <div class= "container m-auto p-4">
+
+     <div class="flex flex-col justify-evenly space-x-3 md:flex-row ">
+      <div class="p-2 w-full text-sm  md:w-1/3 ">
+        <h1 class="text-blue-600 font-bold text-2xl">Our skils</h1>
+        <p class="leading-6">I have extensive experience in designing and developing responsive user interfaces using technologies like HTML5, CSS3, and JavaScript.
+           My expertise in Bootstrap and Tailwind CSS enables me to create visually appealing and user-friendly designs. Additionally, I focus on performance optimization 
+           and user experience to
+           deliver high-quality services. With strong collaboration skills, I contribute effectively to achieving the shared goals of projects with maximum efficiency.</p>
+      </div>
+      <div class="w-full md:w-1/3">
+        <h3 class="font-semibold text-xs ">HTML</h3>
+        <div class="w-80 md:w-96 bg-gray-200 rounded-xl h-4 overflow-hidden">
+          <div class="bg-blue-500 h-4 rounded-xl transition-all duration-1000 ease-out text-right pr-2 text-white text-sm font-semibold w-90" data-percent="100"></div>
+        </div>
+      
+        <h3 class="font-semibold text-xs mt-2">CSS</h3>
+        <div class="md:w-96 w-80 bg-gray-200 rounded-full h-4 overflow-hidden">
+          <div class="bg-blue-500 h-4 rounded-full transition-all duration-1000 ease-out text-right pr-2 text-white text-sm font-semibold w-85 " data-percent="100"></div>
+        </div>
+
+        <h3 class="font-semibold text-xs mt-2">JavaScript</h3>
+        <div class="md:w-96 w-80 bg-gray-200 rounded-full h-4 overflow-hidden">
+          <div class="bg-blue-500 h-4 rounded-full transition-all duration-1000 ease-out text-right pr-2 text-white text-sm font-semibold w-77" data-percent="77"></div>
+        </div>
+
+        <h3 class="font-semibold text-xs mt-2">Bootstrap</h3>
+        <div class="md:w-96 w-80 bg-gray-200 rounded-full h-4 overflow-hidden">
+          <div class="bg-blue-500 h-4 rounded-full transition-all duration-1000 ease-out text-right pr-2 text-white text-sm font-semibold w-87" data-percent="100"></div>
+        </div>
+
+        <h3 class="font-semibold text-xs mt-2">tailwindCss</h3>
+        <div class="md:w-96 w-80 bg-gray-200 rounded-full h-4 overflow-hidden">
+          <div class="bg-blue-500 h-4 rounded-full transition-all duration-1000 ease-out text-right pr-2 text-white text-sm font-semibold w-85" data-percent="100"></div>
+        </div>
+
+        <h3 class="font-semibold text-xs mt-2">React js</h3>
+        <div class="md:w-96 w-80 bg-gray-200 rounded-full h-4 overflow-hidden">
+          <div class="bg-blue-500 h-4 rounded-full transition-all duration-1000 ease-out text-right pr-2 text-white text-sm font-semibold w-79" data-percent="100"></div>
+        </div>
+
+
+      </div>
+    </div>
+     </div>
+  
+    </div>
+    </div>
+    <!-- end slite-4 -->
+
+      <!-- start-slite-5 -->
+      <div class="slite-5  md:bg-slate-100 h-40 mt-11 rounded-s md:mt-32"> 
+
+          <!-- Resume -->
+      <div class="text-center md:mb-36 mb-20 ">
+        <h2 class="text-2xl font-bold mb-5 text-blue-600">Resume</h2>
+        <p class="mb-4 text-sm">I’m a Front-End Software Engineer specializing in building modern, responsive web interfaces using the latest tools and technologies.</p>
+        <a href="#" class="inline-block bg-blue-600  text-white px-6 py-2 rounded-full hover:bg-blue-400">Download Resume</a>
+      </div>
+      <div>
+      </div>
+      </div>
+      <!-- end slite-5 -->
+
+
+    <!-- end slite-6 -->
+     <div class="slite-6 mt-14 md:mt-36" id="education">
+      <section class="max-w-6xl mx-auto px-4 py-12">
+      
+      
+        <!-- Education -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-blue-600">My Education</h3>
+            <p class="mb-4 text-sm">Bachelor of Software Engineering – Jordanian Sudanese College for Science and Technology
+              , 2020</p>
+            <p class="text-sm" >Focused on software development and user interface design. My graduation project involved building a full web app using JavaScript and React.</p>
+          </div>
+          <div class="space-y-6">
+            <div>
+              <h4 class="font-bold">Fundamentals of Design and User Experience <span class="ml-2  bg-blue-600 text-white text-xs px-2 py-1 rounded"></span></h4>
+              <p class="text-sm text-gray-500">Basics of design, color theory, and user experience principles.</p>
+            </div>
+            <div>
+              <h4 class="font-bold">Principles Mastering modern UI frameworks <span class="ml-2 bg-blue-600 text-white text-xs px-2 py-1 rounded"></span></h4>
+              <p class="text-sm text-gray-700">responsive design, and performance optimization for seamless user</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Work Experience -->
+        <div class="border-t pt-12">
+          <h3 class="text-xl font-semibold mb-6 text-blue-600">Work Experience</h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <p class="mb-4 text-sm">I build high-performance and responsive web applications using React and Next.js. I focus on clean code, accessibility, and user-centric interfaces.</p>
+              <p class="text-sm">Experienced in API integration, performance optimization, and modern design systems using Tailwind and Bootstrap.</p>
+            </div>
+            <div class="space-y-6">
+              <div>
+                <h4 class="font-bold">Front-End Lead <span class="ml-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">8 mos</span></h4>
+                <p class="text-sm text-gray-700 ">Led a front-end team to develop a SaaS dashboard with reusable React components and optimized Next.js pages.</p>
+              </div>
+              <div>
+                <h4 class="font-bold">Junior Front-End Developer <span class="ml-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">6 mos</span></h4>
+                <p class="text-sm text-gray-700">Built interactive pages and improved UI/UX using Tailwind CSS and vanilla JavaScript.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+     </div>
+
+    <!-- end slite-6 -->
+
+
+
+     <!-- start slite-7 -->
+
+     
+  
+    <!-- Portfolio Section -->
+    <div class="slite-7 mt-10 md:mt-32" id="projects">
+      <div class="container m-auto">
+
+        
+      <section class="text-center py-12">
+        <h2 class="text-2xl mb-4 text-blue-600 font-bold">Portfolio</h2>
+        <p class="max-w-2xl mx-auto mb-10 text-gray-600 text-sm">
+          A selection of projects I've worked on, showcasing my skills in building elegant and functional user interfaces.
+        </p>
+    
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
+          <!-- Image Card -->
+          <div class="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img
+              src="/imegs/911.jpeg"
+              alt="Project 1"
+              class="w-full h-auto transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:brightness-75"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p class="text-white text-lg font-semibold">Savory Spot</p>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img
+              src="/imegs/22 (2).jpeg"
+              alt="Project 1"
+              class="w-full h-auto transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:brightness-75"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p class="text-white text-lg font-semibold">Digimedia</p>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img
+              src="/imegs/screenshot-2.png"
+              alt="Project 1"
+              class="w-full h-auto transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:brightness-75"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p class="text-white text-lg font-semibold">Fashionjr</p>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img
+              src="/imegs/screenshot-1.png"
+              alt="Project 1"
+              class="w-full h-auto transition-transform duration-500 ease-in-out transform group-hover:brightness-85"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p class="text-white text-lg font-semibold">UnitedSrar</p>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img
+              src="/imegs/screenshot-4.png"
+              alt="Project 1"
+              class="w-full h-auto transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:brightness-75"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p class="text-white text-lg font-semibold">Insure</p>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img
+              src="/imegs/22 (1).jpeg"
+              alt="Project 1"
+              class="w-full h-auto transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:brightness-75"
+            />
+            <div class="absolute inset-0 bg-black  bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p class="text-white text-lg font-semibold">Cafe Al-Bousaa</p>
+            </div>
+          </div>
+          <!-- Repeat the block above for more images -->
+        </div>
+      </section>
+      </div>
+    
+    </div>
+   
+  
+
+
+     <!-- end slite-7 -->
+
+
+      <!-- Contact Section -->
+  
+      
+        <footer class="slite-8 bg-slate-900 text-white py-12" id="contact">
+          <div class="max-w-4xl mx-auto px-4 grid md:grid-cols-2 gap-6 mt-20">
+              <div>
+                  <h3 class="text-xl font-bold mb-2">Contact Me</h3>
+                  <p class="mb-4 text-sm">Have a project idea or want to collaborate? Feel free to get in touch!</p>
+
+                  <div class="mt-1 mb-2">
+                    <p class="text-white text-sm text-start ">Contact me via:</p>
+
+                  
+                    <a href="https://www.facebook.com/profile.php?id=100008146572972" target="_blank" rel="noopener noreferrer" title="Visit my Facebook profile" class="text-gray-400 hover:text-white">
+            <i class="fab fa-facebook-f text-3xl"></i>
+        </a>
+
+        <a href="https://t.me/alnuor10" target="_blank" rel="noopener noreferrer" title="Visit my Telegram profile" class="text-gray-400 hover:text-white">
+    <i class="fab fa-telegram text-3xl"></i>
+</a>
+
+       
+       
+
+        <a href="https://wa.me/249117063955" target="_blank" rel="noopener noreferrer" title="Contact me on WhatsApp" class="text-gray-400 hover:text-white">
+    <i class="fab fa-whatsapp text-3xl"></i>
+</a>
+
+      
+                  </div>
+                  <p class="text-sm"> Al-Salama  Block 3 <br />Khartoum </p>
+
+                  
+              </div>
+          
+             <div class="flex items-center min-h-screen md:-mt-40 -mt-20  dark:bg-gray-900 text-black">
+<div class="container mx-auto">
+    <div class="max-w-md mx-auto my-10  p-4 rounded-xl  bg-white">
+     
+        <div class="m-7 ">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="5207dd85-4c62-4304-a767-a68c32ad5ef5" />
+                <input type="hidden" name="subject" value="New Submission from your Website" />
+                
+
+                <div class="mb-2">
+                    <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                </div>
+                <div class="mb-2">
+                    <label for="email" class="block  text-sm text-gray-600 dark:text-gray-400">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                </div>
+                <div class="mb-2">
+                    <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="+249 (000) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                </div>
+                <div class="mb-2">
+                    <label for="message" class="block  text-sm text-gray-600 dark:text-gray-400">Your Message</label>
+
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+                </div>
+                <div class="mb-2">
+                    <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                        Send Message
+                    </button>
+                </div>
+                <p class="text-base text-center text-gray-500" id="result"></p>
+            </form>
+        </div>
+    </div>
+  </div>
+</div>
+          </div>
+      
+          <p class="text-center mt-10 text-sm">&copy; 2025 Mohammed - Front-End Developer</p>
+        
+         
+          </div>
+      </footer>
+
+
+      
+   
+      
+     
+
+    
+        
+
+
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
+
+

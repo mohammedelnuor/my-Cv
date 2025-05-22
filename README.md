@@ -1,4 +1,4 @@
 # my-Cv
 for mohammed elnuor 
 
-project node
+project notes
